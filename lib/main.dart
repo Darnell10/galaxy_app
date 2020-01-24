@@ -10,9 +10,8 @@ void main() {
       ),
       body: Center(
         child: Image(
-          image: NetworkImage(
-              'http://sites.psu.edu/outofthisworld/wp-content/up'
-              'loads/sites/6475/2014/03/Milky-Way-Formed-From-the-Inside-Out.jpg'),
+          image: AssetImage('images/milky_way2.png'
+              ''),
         ),
       ),
     ),
